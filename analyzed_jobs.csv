@@ -1,26 +1,82 @@
 title,company,location,summary,description,skills,job_type,job_link,seniority,salary,raw_ai_output
-Business Development Executive,ACS Technologies LLC,Sharjah,We are seeking an experienced and highly motivated Senior Business Development Executive– IT Sales and Services to join our team.,"Position Overview: We are seeking an experienced and highly motivated Senior Business Development Executive– IT Sales and Services to join our team. The ideal candidate will have a solid background in selling IT services and solutions, with the ability to develop strategies, identify new opportunities, and build lasting client relationships. Key Responsibilities: Identify and generate new business opportunities in domestic and international markets. Promote and sell the company's IT services, including: o Web Designing and Development o Mobile Application Development o Graphic Design o Digital Marketing (SEO, SEM, SMM, PPC) Develop and implement effective sales strategies to meet or exceed business targets. Build and maintain strong relationships with new and existing clients. Conduct client meetings, presentations, and product/service demonstrations. Collaborate with internal teams to create proposals and project plans tailored to client requirements. Manage the entire sales cycle from lead generation to deal closure. Work closely with marketing teams to create case studies, pitch decks, and outbound campaigns. Prepare weekly and monthly sales reports with detailed funnel analytics for management. Maintain records of sales activity and prepare regular reports for management. Comfortable working with clients from different geographies (US, UK, Middle East, Europe) and handling time zone overlaps. Required Skills and Qualifications: Bachelor's or Master's degree in Business Administration, Marketing, Information Technology, or a related field. Hands-on experience with freelancing portals like Upwork, Freelancer, Fiverr, Guru, 99designs, and others is a must. Strong understanding of IT services such as web development, app development, software solutions, etc. Capacity to translate technical solutions (like MERN, MEAN, React Native, Swift, Flutter) into business benefits during client discussions. Knowledge of email automation tools and lead qualification workflows to streamline prospecting. Experience using LinkedIn Sales Navigator, Apollo.io, HubSpot, Zoho CRM, or Lemlist for outreach and tracking client communications. Familiar with using analytics and conversion data to refine sales pipelines and optimize bidding strategy. Ability to track KPIs like conversion ratio, response rate, average deal size, and repeat business percentage. Ability to work independently and within a team to meet deadlines and targets. What We Offer: Competitive salary with performance-based incentives A dynamic and growth-oriented work environment Opportunities for career advancement and leadership Exposure to diverse projects and clients Job Types: Full-time, Contract Contract length: 24 months Pay: AED3,500.00 - AED4,500.00 per month Experience: IT Sales: 3 years (Preferred) UAE Sales: 1 year (Preferred) Willingness to travel: 75% (Preferred)","Business Administration, Marketing, Information Technology, IT services, web development, app development, software solutions, email automation tools, lead qualification workflows, LinkedIn Sales Navigator, Apollo.io, HubSpot, Zoho CRM, Lemlist, analytics, conversion data, KPI tracking",Remote,https://www.indeed.com/rc/clk?jk=09d3f49e1f58d123&bb=WNF49-aTmzwHdIcTLxnb_xSu5XQQUnqFbCQURXRRw-iay4ex-C-kzrSccr8Eu_f99i2dOq6_AJHAjcRevyf8Jn_DGpK9Akop22ia0VXa8sNpGMPcfyFA2p3PuEGOizXhAnGltfHMzWs%3D&xkcb=SoCX67M3pYbuNKTCLh0IbzkdCdPP&fccid=9eb734758b0fdb30&cmp=ACS-technologies&ti=Business+Development+Executive&vjs=3,Senior,"AED3,500.00 - AED4,500.00","{
-  ""summary"": ""We are seeking an experienced and highly motivated Senior Business Development Executive– IT Sales and Services to join our team."",
+Full Stack developer(.NET/Angular/Flutter),ENTERPRISE SYSTEMS ANALYSIS TECHNOLOGY (ESAT),Abu Dhabi,Full Stack developer(.NET/Angular/Flutter),"Job Responsibilities · Design, develop, test, and maintain web applications using Angular,C#, .NET, and Oracle DB according to the client requirement. · Contribute to Mobile/Desktop Development by leveraging knowledge of the Flutter framework and Dart language to build high-quality, cross-platform user interfaces for mobile (iOS/Android). · Followed the Agile Methodology for the development of the application. · Develop and consume RESTful APIs and integrate third-party services. · Write clean, scalable, and well-documented code. · Collaborate with UI/UX designers, database developers, and other team members. · Utilized custom Angular services to implement various features and functionalities. · Integrated third-party UI tools like JQueryUI to enhance user interface functionality and user experience · Implemented AJAX autocomplete to improve the search experience and enhance user-friendliness. · Developed custom Angular filters to dynamically display data based on user-specific requirements. · Troubleshoot, debug, and optimize application performance. · Participate in code reviews and follow best practices for development and deployment. · Ensure responsiveness and cross-platform compatibility of web applications. Job Requirements: · Bachelor’s degree in Computer Science, Information Technology, or related field (preferred). · Proficient in Angular,Flutter,C#,.NET MVC framework. · Good knowledge of Flutter for mobile app development (Android & iOS). · Expert in PL/SQL development, including packages, functions, procedures, triggers, and complex SQL. · Familiarity with Visual Studio and version control systems (e.g., Git). · Knowledge of object-oriented programming and design patterns. · Good communication and team collaboration skills. Job Type: Full-time","Angular, Flutter, C#, .NET MVC framework, PL/SQL, Visual Studio, Git, object-oriented programming, design patterns, communication, team collaboration",Remote,https://www.indeed.com/rc/clk?jk=656d3a7ce80b1453&bb=M51YkpJ4Fbtj0KUyD8UoiIQns845xu5vfgcg_MzRNXxSW796BZWpSyYRgA_oHJCbnZhlJWedhY8FL8BMsD2UNRel8PzgI-DqR00NHn4_T8Jja2u-XvWFIJ68wDq_EIFsyG-URvRvGPA%3D&xkcb=SoBu67M3pYecfZz7050LbzkdCdPP&fccid=8852029f302f4150&cmp=ESAT&ti=Full+Stack+Developer&vjs=3,Junior,,"{
+  ""summary"": ""Full Stack developer(.NET/Angular/Flutter)"",
   ""skills"": [
-    ""Business Administration"",
-    ""Marketing"",
-    ""Information Technology"",
-    ""IT services"",
-    ""web development"",
-    ""app development"",
-    ""software solutions"",
-    ""email automation tools"",
-    ""lead qualification workflows"",
-    ""LinkedIn Sales Navigator"",
-    ""Apollo.io"",
-    ""HubSpot"",
-    ""Zoho CRM"",
-    ""Lemlist"",
-    ""analytics"",
-    ""conversion data"",
-    ""KPI tracking""
+    ""Angular"",
+    ""Flutter"",
+    ""C#"",
+    "".NET MVC framework"",
+    ""PL/SQL"",
+    ""Visual Studio"",
+    ""Git"",
+    ""object-oriented programming"",
+    ""design patterns"",
+    ""communication"",
+    ""team collaboration""
+  ],
+  ""seniority"": ""Junior"",
+  ""job_type"": ""Remote"",
+  ""salary"": """"
+}"
+React and AI internship Developer,Swedish technology,Abu Dhabi,We are seeking a motivated programming intern passionate about modern web technologies.,"Position Overview We are seeking a motivated programming intern passionate about modern web technologies. The intern will participate in developing web applications and AI-based solutions using React ,. You will work closely with the development team to design, implement, and optimize interactive applications powered by intelligent systems. Key Responsibilities Mobile Development: Design, develop, and maintain cross-platform mobile applications using React Native (iOS & Android). Odoo Integration: Customize Odoo modules (focus on Inventory, Stock, and Logistics) and integrate them into mobile applications. Python Programming : Develop back-end logic, APIs, and connectors for Odoo using Python. Flutter Development : Contribute to Flutter-based projects as needed (support and enhancements). UI/UX Implementation : Ensure mobile apps are responsive, intuitive, and follow modern UI/UX practices. API & Database: Design and consume RESTful APIs for mobile-Odoo integration. Deployment & Maintenance: Manage builds, updates, and bug fixes for multiple mobile applications. Collaboration: Work closely with ERP consultants, backend developers, and project managers to align mobile solutions with business needs. Required Skills & Qualifications Education: Bachelor’s degree in Computer Science, Software Engineering, or related field. Experience: Minimum of 1 mobile applications , 1 web app successfully delivered (App Store/Google Play or enterprise deployment). Technical Expertise: Strong React Native development experience. Odoo module customization and integration (Inventory/Stock mandatory). Solid Python development background. Basic working knowledge of Flutter. API development and integration (REST/GraphQL). Database understanding (PostgreSQL preferred). Other Skills: Strong problem-solving and debugging skills. Ability to work with Agile/Scrum methodologies. Familiarity with Git and CI/CD pipelines. ross-functional team. Contract Terms Location: Flexible (onsite/remote hybrid as per project needs). Duration: 12 months (extendable). Workload: Full-time, 5 days per week. Job Type: Full-time Ability to commute/relocate: Abu Dhabi: Reliably commute or planning to relocate before starting work (Required) Experience: Programming : 1 year (Preferred) do you have React: 1 year (Preferred) Language: Are speak Arabic and English (Preferred) License/Certification: driving License (Preferred) Location: Abu Dhabi (Required)","React Native, Odoo module customization, Python, Flutter, API development, PostgreSQL, problem-solving, debugging, Agile/Scrum, Git, CI/CD",Hybrid,https://www.indeed.com/rc/clk?jk=ce72e0d76321d3f2&bb=M51YkpJ4Fbtj0KUyD8UoiBvkez490v1or8k1pO1GboRtLVDYBvTFm4Ybl0g7RglfS7ZQwOt-oZAKIPetXbV93RU_QxispqQFMTZGPOCcsj__5NC6j6foBVnr_R5TsIiOy7Gzicnvxho%3D&xkcb=SoDa67M3pYecfZz7050KbzkdCdPP&fccid=95e5d01846786052&cmp=Swedishtechnology&ti=Ai+Developer&vjs=3,Junior,,"{
+  ""summary"": ""We are seeking a motivated programming intern passionate about modern web technologies."",
+  ""skills"": [
+    ""React Native"",
+    ""Odoo module customization"",
+    ""Python"",
+    ""Flutter"",
+    ""API development"",
+    ""PostgreSQL"",
+    ""problem-solving"",
+    ""debugging"",
+    ""Agile/Scrum"",
+    ""Git"",
+    ""CI/CD""
+  ],
+  ""seniority"": ""Junior"",
+  ""job_type"": ""Hybrid"",
+  ""salary"": """"
+}"
+Odoo Developer,Swedish technology,Abu Dhabi,We are looking for an experienced Python / Odoo Developer to join our development team in Abu Dhabi.,"We are looking for an experienced Python / Odoo Developer to join our development team in Abu Dhabi. The ideal candidate will have hands-on expertise in Odoo versions 14 through 19 and a strong background in Python-based ERP customization and integration Position Overview As a Python / Odoo Developer , you will design, develop, and maintain Odoo ERP modules tailored to client business needs. You’ll collaborate with cross-functional teams to integrate Odoo with, external systems, and automation workflows helping deliver advanced, intelligent enterprise solutions. Key Responsibilities · Develop, customize, and maintain Odoo modules (Sales, CRM, Accounting, Inventory, HR, Projects, etc.) for versions 14 to 19 . · Design new functionalities in Odoo using Python, XML, and JavaScript . · Implement and manage Odoo API integrations with third-party systems and AI tools. · Customize OWL , QWeb views and web client features to meet UI/UX requirements. · Configure and deploy Odoo servers on Linux or Docker-based environments. · Develop automated reporting , data analytics, and dashboard solutions within Odoo. · Perform upgrades and migrations between Odoo versions (14–19). · Conduct unit testing, debugging, and performance optimization . · Collaborate with AI developers to integrate intelligent process automation and data analysis within Odoo. · Maintain detailed technical documentation and follow best practices for code management. Odoo Integration: Customize Odoo modules (focus on Inventory, Stock, and Logistics) and integrate them into mobile applications. Python Programming : Develop back-end logic, APIs, and connectors for Odoo using Python. Flutter Development : Contribute to Flutter-based projects as needed (support and enhancements). UI/UX Implementation : Ensure mobile apps are responsive, intuitive, and follow modern UI/UX practices. API & Database: Design and consume RESTful APIs for mobile-Odoo integration. Deployment & Maintenance: Manage builds, updates, and bug fixes for multiple mobile applications. Collaboration: Work closely with ERP consultants, backend developers, and project managers to align mobile solutions with business needs. Required Skills & Qualifications Education: Bachelor’s degree in Computer Science, Software Engineering, or related field. Experience: Minimum of 10 mobile applications successfully delivered (App Store/Google Play or enterprise deployment). Technical Expertise: Strong React Native development experience. Odoo module customization and integration (Inventory/Stock mandatory). Solid Python development background. Basic working knowledge of Flutter. API development and integration (REST/GraphQL). Database understanding (PostgreSQL preferred). Other Skills: · Bachelor’s degree in Computer Science , Software Engineering , or related discipline. · 3+ years of professional experience in Odoo development (versions 14–19). · Strong knowledge of Python , Odoo ORM , PostgreSQL , XML , and JavaScript . · Experience with Odoo module development , customization, and migration. · Proficiency in Linux server environments , Git , and Docker . · Strong understanding of MVC architecture , REST APIs , and JSON integration. · Ability to analyze business requirements and translate them into technical solutions. · Excellent debugging, optimization, and troubleshooting skills. · Strong communication skills in English (Arabic is a plus). Contract Terms Location: Flexible (onsite/remote hybrid as per project needs). Duration: 12 months (extendable). . Job Type: Full-time Application Question(s): What is your proficiency in Python (1-10)? Have you ever performed an Odoo version upgrade or migration? Experience: odoo: 1 year (Required) Python: 1 year (Required) License/Certification: driving License (Preferred) Location: Abu Dhabi (Required)","Python, Odoo, ERP customization, integration, XML, JavaScript, API integrations, automated reporting, data analytics, PostgreSQL, React Native, Flutter, Linux, Git, Docker",Hybrid,https://www.indeed.com/rc/clk?jk=6cb038742e3b1ab0&bb=M51YkpJ4Fbtj0KUyD8UoiHNnRbb2GSLAGVrjgXifCEMpmx1HSYJ6mmA_ptXgosWzGC0YvOw6FYn0Tv-U2vA6wysLlG6gAh6ijssmdV4c4LfGhn7HT75yF6jEGsli3SmsX-7NKhsdBcE%3D&xkcb=SoBH67M3pYecfZz7050JbzkdCdPP&fccid=95e5d01846786052&cmp=Swedishtechnology&ti=Developer&vjs=3,Intermediate,,"{
+  ""summary"": ""We are looking for an experienced Python / Odoo Developer to join our development team in Abu Dhabi."",
+  ""skills"": [
+    ""Python"",
+    ""Odoo"",
+    ""ERP customization"",
+    ""integration"",
+    ""XML"",
+    ""JavaScript"",
+    ""API integrations"",
+    ""automated reporting"",
+    ""data analytics"",
+    ""PostgreSQL"",
+    ""React Native"",
+    ""Flutter"",
+    ""Linux"",
+    ""Git"",
+    ""Docker""
+  ],
+  ""seniority"": ""Intermediate"",
+  ""job_type"": ""Hybrid"",
+  ""salary"": """"
+}"
+Sr. Golang Developer,Drivys,Abu Dhabi,"We are looking for a highly skilled Senior Golang Developer with strong experience in Flutter and DevOps to join our tech team and work on scalable, high-performance systems.","We Are Hiring – Senior Golang Developer We are looking for a highly skilled Senior Golang Developer with strong experience in Flutter and DevOps to join our tech team and work on scalable, high-performance systems. Requirements: 5+ years of hands-on experience with Golang Strong knowledge of microservices architecture Experience with RESTful APIs, gRPC, and high-performance backend systems Solid experience with Flutter (Android & iOS) Good understanding of DevOps practices (CI/CD, Docker, cloud deployments) Familiarity with SQL/NoSQL databases Experience working with containerized environments (Docker, cloud services) Ability to lead technical decisions and mentor junior developers Role Responsibilities: Design and build robust backend services using Go Develop and maintain mobile applications using Flutter Implement and improve CI/CD pipelines and DevOps workflows Optimize overall system performance, scalability, and reliability Collaborate with cross-functional teams to deliver high-quality solutions Participate in architecture planning and contribute to technical leadership Job Type: Full-time Application Question(s): How much your current salary?","Golang, Flutter, DevOps, microservices architecture, RESTful APIs, gRPC, high-performance backend systems, SQL/NoSQL databases, containerized environments, CI/CD, Docker, cloud deployments",Remote,https://www.indeed.com/rc/clk?jk=ea1d8b0165f4e25e&bb=M51YkpJ4Fbtj0KUyD8UoiJW-bf6S3I80-BNTt0JtrjRwI0pxEgyiGaH9M4C3yeVWwk_JWdSz97iAnkc-h0F9ubi8lkFpCZFsIkCxoAcHpnxFTxNxKz7V55sbf6mEVt_UZ2PiaQxSgek%3D&xkcb=SoDz67M3pYecfZz7050IbzkdCdPP&fccid=17eb957afbf0d790&cmp=Drivys&ti=Golang+Developer&vjs=3,Senior,,"{
+  ""summary"": ""We are looking for a highly skilled Senior Golang Developer with strong experience in Flutter and DevOps to join our tech team and work on scalable, high-performance systems."",
+  ""skills"": [
+    ""Golang"",
+    ""Flutter"",
+    ""DevOps"",
+    ""microservices architecture"",
+    ""RESTful APIs"",
+    ""gRPC"",
+    ""high-performance backend systems"",
+    ""SQL/NoSQL databases"",
+    ""containerized environments"",
+    ""CI/CD"",
+    ""Docker"",
+    ""cloud deployments""
   ],
   ""seniority"": ""Senior"",
   ""job_type"": ""Remote"",
-  ""salary"": ""AED3,500.00 - AED4,500.00""
+  ""salary"": """"
 }"

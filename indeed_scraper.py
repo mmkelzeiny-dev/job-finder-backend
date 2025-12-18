@@ -22,7 +22,6 @@ def scrape_jobs(job_query="software developer", location="Abu Dhabi", pages=1):
             f"https://ae.indeed.com/jobs?q={job_query.replace(' ', '+')}&l={location.replace(' ', '+')}&start={start}"
         )
 
-        print(f"🌍 Loading: {target_url}")
 
         # --- Create a new driver each time ---
         options = Options()
@@ -38,7 +37,6 @@ def scrape_jobs(job_query="software developer", location="Abu Dhabi", pages=1):
 
         try:
             driver.get(target_url)
-            print("⏳ Waiting for page to load...")
             time.sleep(random.uniform(5, 8))  # Wait for dynamic content
 
             try:
@@ -65,9 +63,6 @@ def scrape_jobs(job_query="software developer", location="Abu Dhabi", pages=1):
 
                 if "mosaic" in job_element.get("class", []):
                     continue
-
-                # if not description:
-                #     continue
 
                 comp_el = job_element.select_one("span[data-testid='company-name']")
                 loc_el = job_element.select_one("div[data-testid='text-location']")
@@ -108,7 +103,7 @@ def scrape_jobs(job_query="software developer", location="Abu Dhabi", pages=1):
             time.sleep(random.uniform(1.5, 3))  # polite delay
 
         finally:
-            driver.quit()  # ensure Chrome closes every loop
+            driver.quit()  
 
     print(f"\n🎉 DONE — Scraped {len(all_jobs)} jobs")
     return all_jobs

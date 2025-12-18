@@ -8,15 +8,15 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# ---------------------------
-# ⚙️ OpenAI client setup
-# Make sure your API key is set in environment variable:
-# export OPENAI_API_KEY="YOUR_KEY_HERE" (Linux/Mac)
-# setx OPENAI_API_KEY "YOUR_KEY_HERE" (Windows)
+
+
+
+
+
 client = OpenAI(api_key=os.getenv("openai_api_key"))
 
-# ---------------------------
-# 🧩 Process jobs with AI
+
+
 def process_all_jobs(all_jobs):
     """
     Sends each job to OpenAI and returns a list of enriched job dictionaries.
@@ -30,7 +30,7 @@ def process_all_jobs(all_jobs):
     for i, job in enumerate(all_jobs, start=1):
         print(f"🔹 Processing job {i}/{len(all_jobs)}: {job.get('title', 'Untitled')}")
 
-        # ---- Build prompt for this job ----
+        
         prompt = f"""
 Extract the following fields from the job below.
 Return ONLY valid JSON. NO code blocks. NO backticks. NO explanation. From the job description below, extract the salary ONLY if it is explicitly mentioned.
@@ -55,10 +55,10 @@ Company: {job.get('company')}
 Location: {job.get('location')}
 Description: {job.get('description')}
 """
- # Python triple quotes end here
+ 
         
         try:
-            # ---- Send prompt to OpenAI ----
+            
             response = client.chat.completions.create(
                 model="gpt-4o-mini",
                 messages=[
@@ -68,37 +68,36 @@ Description: {job.get('description')}
                 temperature=0.3,
             )
 
-            print("🔴 AI OUTPUT:")
-            print(response)
 
 
-            # ---- Extract response and clean Markdown fences ----
+
+            
             content = response.choices[0].message.content.strip()
             content = content.strip()
 
-            # Strip code fences if present
+            
             if content.startswith("```"):
                 content = content.split("```", 2)[1].strip()
 
-            # Clean again if nested
+            
             if content.startswith("{") is False:
                 content = re.search(r"\{.*\}", content, re.DOTALL).group()
 
 
 
-            # ---- Parse JSON safely ----
+            
             data = json.loads(content)
 
-            # ---- Merge original job data with AI output ----
+            
             job_with_ai = {
-                **job,  # Copy original job fields
+                **job,  
                 "job_link": job.get("job_link"),
                 "summary": data.get("summary", ""),
                 "skills": ", ".join(data.get("skills", [])),
                 "seniority": data.get("seniority", ""),
                 "job_type": data.get("job_type", ""),
                 "salary": data.get("salary") or job.get("salary") or "",
-                "raw_ai_output": content,  # Keep raw AI output for debugging
+                "raw_ai_output": content,  
             }
 
         except json.JSONDecodeError:
@@ -110,14 +109,14 @@ Description: {job.get('description')}
             job_with_ai = {**job, "summary": "", "skills": "", "seniority": "", "job_type": "", "raw_ai_output": ""}
 
         processed.append(job_with_ai)
-        time.sleep(1.2)  # Small delay to avoid rate limits
+        time.sleep(1.2)  
 
     return processed
 
 
 def save_to_csv(jobs, filename="jobs_analyzed.csv"):
     if not jobs:
-        print("No jobs to save.")
+
         return
 
     headers = list(jobs[0].keys())
@@ -126,7 +125,7 @@ def save_to_csv(jobs, filename="jobs_analyzed.csv"):
         writer.writeheader()
         writer.writerows(jobs)
 
-    print(f"✅ Saved {len(jobs)} jobs to {filename}")
+
 
 if __name__ == "__main__":
     all_jobs = [
@@ -183,5 +182,5 @@ Job Description:
             return None
         return salary
     except Exception as e:
-        print(f"⚠️ Error extracting salary: {e}")
+ 
         return None

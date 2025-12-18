@@ -1,0 +1,5 @@
+title,company,location,description,summary,skills,seniority,job_type,raw_ai_output
+Python Developer,TechCorp,Dubai,Looking for a Python developer with experience in Django and FastAPI...,Looking for a Python developer with experience in Django and FastAPI.,"['Python', 'Django', 'FastAPI']",Not specified,Not specified,
+Data Analyst,DataInc,Remote,"We need someone proficient in SQL, Excel, and Python for data analysis tasks...","We need someone proficient in SQL, Excel, and Python for data analysis tasks.","['SQL', 'Excel', 'Python']",Not specified,Not specified,
+Frontend Developer,Webify,Abu Dhabi,"React, HTML, CSS developer with UI/UX understanding.","Frontend Developer with skills in React, HTML, CSS and a strong understanding of UI/UX.","['React', 'HTML', 'CSS', 'UI/UX']",Not specified,Not specified,
+Machine Learning Engineer,AI Labs,Remote,"Python, TensorFlow, PyTorch, data pipelines...","Machine Learning Engineer proficient in Python, TensorFlow, and PyTorch, with experience in data pipelines.","['Python', 'TensorFlow', 'PyTorch', 'data pipelines']",Not specified,Not specified,

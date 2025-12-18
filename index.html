@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Job Scraper + AI Analyzer</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      input {
+        margin: 5px;
+        padding: 5px;
+      }
+      button {
+        padding: 5px 10px;
+      }
+      table {
+        border-collapse: collapse;
+        margin-top: 20px;
+        width: 100%;
+      }
+      th,
+      td {
+        border: 1px solid #ccc;
+        padding: 8px;
+        text-align: left;
+      }
+      th {
+        background-color: #f0f0f0;
+      }
+      .error {
+        color: red;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Job Scraper + AI Analyzer</h2>
+
+    <div>
+      <label
+        >Job Title: <input type="text" id="jobQuery" value="python developer"
+      /></label>
+      <label
+        >Location: <input type="text" id="locationQuery" value="Dubai"
+      /></label>
+      <button onclick="scrapeAndAnalyze()">Scrape & Analyze</button>
+    </div>
+
+    <div id="message"></div>
+    <div class="error" id="error"></div>
+
+    <table id="resultsTable" style="display: none">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Company</th>
+          <th>Location</th>
+          <th>Summary</th>
+          <th>Skills</th>
+          <th>Seniority</th>
+          <th>Job Type</th>
+        </tr>
+      </thead>
+      <tbody id="resultsBody"></tbody>
+    </table>
+
+    <script>
+      async function scrapeAndAnalyze() {
+        const jobQuery = document.getElementById("jobQuery").value;
+        const locationQuery = document.getElementById("locationQuery").value;
+        const messageDiv = document.getElementById("message");
+        const errorDiv = document.getElementById("error");
+        const table = document.getElementById("resultsTable");
+        const tbody = document.getElementById("resultsBody");
+
+        messageDiv.textContent = "⏳ Fetching jobs...";
+        errorDiv.textContent = "";
+        table.style.display = "none";
+        tbody.innerHTML = "";
+
+        try {
+          const response = await fetch(
+            `http://127.0.0.1:8000/scrape_and_analyze?job=${encodeURIComponent(
+              jobQuery
+            )}&location=${encodeURIComponent(locationQuery)}`
+          );
+
+          if (!response.ok) {
+            throw new Error(`Server returned ${response.status}`);
+          }
+
+          const data = await response.json();
+
+          if (data.error) {
+            throw new Error(data.error);
+          }
+
+          messageDiv.textContent =
+            data.message || `Processed ${data.results.length} jobs`;
+
+          // Populate table
+          data.results.forEach((job) => {
+            const row = document.createElement("tr");
+            row.innerHTML = `
+        <td>${job.title || ""}</td>
+        <td>${job.company || ""}</td>
+        <td>${job.location || ""}</td>
+        <td>${job.summary || ""}</td>
+        <td>${job.skills || ""}</td>
+        <td>${job.seniority || ""}</td>
+        <td>${job.job_type || ""}</td>
+      `;
+            tbody.appendChild(row);
+          });
+
+          table.style.display = "table";
+        } catch (err) {
+          console.error(err);
+          errorDiv.textContent = `❌ ${err.message}`;
+          messageDiv.textContent = "";
+        }
+      }
+    </script>
+  </body>
+</html>

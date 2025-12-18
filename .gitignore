@@ -1,0 +1,17 @@
+# Python junk
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment (Very important!)
+venv/
+env/
+.venv/
+
+# Environment variables (Don't leak your keys!)
+.env
+
+# Database
+*.db
+
+job-scraper-9ccef-firebase-adminsdk-fbsvc-a3f3924364.json

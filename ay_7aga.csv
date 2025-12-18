@@ -1,0 +1,25 @@
+title,company,location,description,summary,skills,seniority,job_type,raw_ai_output
+Python Developer,TechCorp,Dubai,"Looking for a Python developer with experience in Django, FastAPI, and REST APIs. Must be comfortable working in an Agile team.","Looking for a Python developer with experience in Django, FastAPI, and REST APIs to work in an Agile team.","Python, Django, FastAPI, REST APIs, Agile",Mid,Onsite,"{
+  ""summary"": ""Looking for a Python developer with experience in Django, FastAPI, and REST APIs to work in an Agile team."",
+  ""skills"": [""Python"", ""Django"", ""FastAPI"", ""REST APIs"", ""Agile""],
+  ""seniority"": ""Mid"",
+  ""job_type"": ""Onsite""
+}"
+Data Analyst,DataInc,Remote,"We need someone proficient in SQL, Excel, and Python for data analysis and reporting. Experience with Tableau is a plus.","A Data Analyst position requiring proficiency in SQL, Excel, and Python for data analysis and reporting, with experience in Tableau being a plus.","SQL, Excel, Python, Tableau",Mid,Remote,"{
+  ""summary"": ""A Data Analyst position requiring proficiency in SQL, Excel, and Python for data analysis and reporting, with experience in Tableau being a plus."",
+  ""skills"": [""SQL"", ""Excel"", ""Python"", ""Tableau""],
+  ""seniority"": ""Mid"",
+  ""job_type"": ""Remote""
+}"
+Frontend Engineer,WebWorks,New York,"Looking for a frontend engineer skilled in React, HTML, CSS, and JavaScript. Experience with Redux and TypeScript is preferred.","A frontend engineer position focused on developing user interfaces using React, HTML, CSS, and JavaScript.","React, HTML, CSS, JavaScript, Redux, TypeScript",Mid,Onsite,"{
+  ""summary"": ""A frontend engineer position focused on developing user interfaces using React, HTML, CSS, and JavaScript."",
+  ""skills"": [""React"", ""HTML"", ""CSS"", ""JavaScript"", ""Redux"", ""TypeScript""],
+  ""seniority"": ""Mid"",
+  ""job_type"": ""Onsite""
+}"
+Machine Learning Engineer,AI Solutions,San Francisco,"Seeking a machine learning engineer with Python, TensorFlow, and PyTorch experience. Must have knowledge of ML pipelines and model deployment.","Seeking a machine learning engineer with experience in Python, TensorFlow, and PyTorch, focusing on ML pipelines and model deployment.","Python, TensorFlow, PyTorch, ML pipelines, model deployment",Mid,Onsite,"{
+  ""summary"": ""Seeking a machine learning engineer with experience in Python, TensorFlow, and PyTorch, focusing on ML pipelines and model deployment."",
+  ""skills"": [""Python"", ""TensorFlow"", ""PyTorch"", ""ML pipelines"", ""model deployment""],
+  ""seniority"": ""Mid"",
+  ""job_type"": ""Onsite""
+}"

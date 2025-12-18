@@ -7,23 +7,12 @@ from openai import OpenAI
 from dotenv import load_dotenv
 
 load_dotenv()
-
-
-
-
-
-
 client = OpenAI(api_key=os.getenv("openai_api_key"))
-
-
 
 def process_all_jobs(all_jobs):
     """
     Sends each job to OpenAI and returns a list of enriched job dictionaries.
-    """
-
-    
-        
+    """    
     processed = []
 
 
@@ -68,10 +57,6 @@ Description: {job.get('description')}
                 temperature=0.3,
             )
 
-
-
-
-            
             content = response.choices[0].message.content.strip()
             content = content.strip()
 
@@ -82,13 +67,9 @@ Description: {job.get('description')}
             
             if content.startswith("{") is False:
                 content = re.search(r"\{.*\}", content, re.DOTALL).group()
-
-
-
-            
+ 
             data = json.loads(content)
-
-            
+ 
             job_with_ai = {
                 **job,  
                 "job_link": job.get("job_link"),
@@ -124,8 +105,6 @@ def save_to_csv(jobs, filename="jobs_analyzed.csv"):
         writer = csv.DictWriter(f, fieldnames=headers)
         writer.writeheader()
         writer.writerows(jobs)
-
-
 
 if __name__ == "__main__":
     all_jobs = [

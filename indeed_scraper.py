@@ -112,4 +112,3 @@ def scrape_jobs(job_query="software developer", location="Abu Dhabi", pages=1):
 
     print(f"\n🎉 DONE — Scraped {len(all_jobs)} jobs")
     return all_jobs
-# "salary": salary_el.get_text(strip=True) if salary_el else "",
